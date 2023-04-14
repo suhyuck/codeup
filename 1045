@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int a, b, res;
+	scanf("%d %d", &a, &b);
+	printf("%lld\n", a+b);
+	printf("%lld\n", a-b);
+	printf("%lld\n", a*b);
+	printf("%lld\n", a/b);
+	printf("%lld\n", a%b);
+	printf("%.2lf", (float)a/b);
+	return 0;
+}
