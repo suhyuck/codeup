@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+	int x, y, z;
+	scanf("%d %d %d", &x, &y, &z);
+	if(x%2==0)
+		printf("even\n", x);
+	else
+		printf("odd\n");
+	
+	if(y%2==0)
+		printf("even\n", y);
+	else
+		printf("odd\n");
+	
+	if(z%2==0)
+		printf("even\n", z);
+	else
+		printf("odd\n");
+	
+	return 0;
+}
