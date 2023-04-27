@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int x, y;
+	scanf("%d", &x);
+	
+	reload:
+	
+	scanf("%d", &y);
+	printf("%d\n", y);
+	
+	if(--x !=0) goto reload;
+	return 0;
+}
