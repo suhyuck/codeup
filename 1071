@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+	int x;
+	reload:
+	scanf("%d", &x);
+	if(x!=0)
+		printf("%d\n", x);
+	
+	if(x!=0) goto reload;
+	return 0;
+}
