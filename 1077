@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+	int x, y=0;
+	scanf("%d", &x);
+	do
+	{
+		printf("%d\n", y);
+		y+=1;
+	}while(y<x+1);
+	return 0;
+}
