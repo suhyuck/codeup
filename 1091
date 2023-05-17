@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	long long int x, y, z, n;
+	scanf("%lld %lld %lld %lld", &x, &y, &z, &n);
+	for(int i=1; i<n; i++){
+		x=x*y+z;
+	}
+	printf("%lld", x);
+	return 0;
+}
