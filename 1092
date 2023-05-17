@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	long long int x, y, z, day=1;
+	scanf("%lld %lld %lld", &x, &y, &z);
+	while(day%x!=0 || day%y!=0 || day%z!=0)
+	{
+		day++;
+	}
+	
+	printf("%lld", day);
+	return 0;
+}
